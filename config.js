@@ -8,6 +8,6 @@ module.exports = {
     },
     db:{
         user: process.env.DB_USER,
-        pass: process.env.DB_PASS
+        pass: process.env.DB_PASSWORD
     }
 }
