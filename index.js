@@ -8,7 +8,8 @@ const PORT = api.port;
 
 // Syncing all the models at once.
 conn.sync({ force: true }).then(async () => {
-  server.listen(PORT, HOST, async () => {
+  // server.listen(PORT, HOST, async () => {
+  server.listen(PORT, async () => {
   // Hacemos el pedido de los paises a la API y los guardamos en la BD.
   try {
       apiCall();
